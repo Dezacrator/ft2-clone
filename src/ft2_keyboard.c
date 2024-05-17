@@ -420,7 +420,7 @@ static void handleKeys(SDL_Keycode keycode, SDL_Scancode scanKey)
 
 		// function Keys (F1..F12)
 
-		case SDLK_F1:
+		case SDLK_1:
 		{
 			     if (keyb.leftShiftPressed) trackTranspAllInsDn();
 			else if (keyb.leftCtrlPressed)  pattTranspAllInsDn();
